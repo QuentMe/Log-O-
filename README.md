@@ -8,7 +8,7 @@ log-O is a simple program that allows you to paste any logo to a folder of image
 
 ## Starting the application
 
-To start the application, you only need to run the following command:
+To start the application, you only need to run the following command when you're in the root of the project:
 
 ```bash
 python3 main.py
