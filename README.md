@@ -6,6 +6,12 @@ log-O is a simple program that allows you to paste any logo to a folder of image
 
 ![Screen of the app](https://github.com/QuentMe/log-O/blob/154690f01f0f838b715d8dc659dcf260a06f5c0f/screen.png?raw=true)
 
+## Requirements
+
+- Python 3.6 or higher
+- Pillow
+- tkinter
+
 ## Starting the application
 
 To start the application, you only need to run the following command when you're in the root of the project:
