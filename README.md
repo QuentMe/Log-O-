@@ -2,7 +2,7 @@
 
 ## Description
 
-log-O is a simple program that allows you to append any logo to a folder of images.
+log-O is a simple program that allows you to paste any logo to a folder of images.
 
 ![Screen of the app](https://github.com/QuentMe/log-O/blob/154690f01f0f838b715d8dc659dcf260a06f5c0f/screen.png?raw=true)
 
