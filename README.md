@@ -14,7 +14,9 @@ log-O is a simple program that allows you to paste any logo to a folder of image
 
 ## Starting the application
 
-To start the application, you only need to run the following command when you're in the root of the project:
+You can simply start the application by downloading the executable file in the latest release and execute it.
+
+Alternatively, you can run the following command when you're in the root of the project after downloading the source code :
 
 ```bash
 python3 main.py
