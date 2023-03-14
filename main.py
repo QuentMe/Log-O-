@@ -2,6 +2,7 @@
 # The app will then add the logo image to each image and save it in the destination folder.
 
 import os
+import sys
 
 import tkinter as tk
 from tkinter import filedialog
@@ -14,7 +15,11 @@ deepblue = '#124165'
 
 root = tk.Tk(screenName='Log(O)', baseName='Log(O)', className='Log(O)', useTk=1)
 root.minsize(500, 150)
-root.iconbitmap('home_icon.ico')
+if getattr(sys, 'frozen', False):
+    root.iconbitmap(os.path.join(sys._MEIPASS, 'files/home_icon.ico'))
+else :
+    root.iconbitmap('./files/home_icon.ico')
+    
 root.configure(background=deepblue)
 
 
